@@ -145,8 +145,10 @@ align-items: center;
  justify-content: center;
 }
 .main_img {
-  width: 420px;
-  height: 580px;
+  width: 430px;
+  height: 480px;
+  /* width: 420px;
+  height: 580px; */
   border-radius: 5%;
 }
 

@@ -24,3 +24,8 @@ tl.from("img", { x: 200, opacity: 0, duration: 1.5 }).from(
   { y: 300, opacity: 0, duration: 1 },
   "-=1"
 );
+
+ScrollReveal().reveal('.headline');
+ScrollReveal().reveal('.this', { delay: 600 });
+ScrollReveal().reveal('.punchline', { delay: 2000 });
+ScrollReveal({ reset: true });
