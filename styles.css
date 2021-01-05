@@ -15,14 +15,16 @@
 /* Colores */
 :root {
   --first-color: #002ecd;
+  --second-color: #a0fef4;
   --white-color: #fafaff;
   --dark-color: #2a3b47;
   --text-color: #697477;
+  --accent-color: #fece2d;
 }
 
 .hero_section {
   height: 100vh;
-  background: #002ecd;
+  background: var(--first-color);
   padding: 0 60px;
   color: #fff;
 }
@@ -128,6 +130,9 @@
   font-size: 48px;
   line-height: 1.5;
   margin-bottom: 32px;
+}
+.main_text h2 span {
+  border-bottom: 4px var(--accent-color) solid;
 }
 
 .main_text p {
@@ -236,6 +241,7 @@
 .services_content {
   display: flex;
   align-items: flex-start;
+  /* margin-right: 10rem; */
 }
 
 .services_content img {
@@ -265,15 +271,14 @@
 
 .services_right h1 {
   position: absolute;
-  top: 100px;
-  left: 946px;
+  top: 120px;
+  left: 980px;
   z-index: 1;
   font-size: 62px;
   color: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #000;
-  margin-bottom: 32px;
+  -webkit-text-stroke-color: #fece2d;
 }
 .view {
   height: 800px;
@@ -282,7 +287,7 @@
 
 .yellow_bar {
   position: absolute;
-  background: yellow;
+  background: #fece2d;
   z-index: 1;
   height: 80px;
   bottom: -40px;
